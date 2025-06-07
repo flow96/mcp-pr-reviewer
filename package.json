@@ -1,0 +1,32 @@
+{
+  "name": "pr-review-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for PR review functionality - get diffs and add comments",
+  "main": "dist/index.mjs",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "pr",
+    "review",
+    "github"
+  ],
+  "author": "Florian Lutze",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@octokit/rest": "^22.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "esbuild": "^0.25.5",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

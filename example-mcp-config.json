@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "pr-review": {
+      "command": "node",
+      "args": ["/absolute/path/to/pr-review-mcp/dist/index.js"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_your_github_personal_access_token_here",
+        "GITHUB_API_URL": "https://api.github.com",
+        "COMMENT_PREFIX": ""
+      }
+    }
+  }
+} 
